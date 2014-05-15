@@ -1,4 +1,10 @@
-/* Auto Tab Index v0.1 | (c) VTwo | vtwo.org*/ 
+/**
+ * @name        jQuery Auto TabIndex Plugin
+ * @author      VTwo Group
+ * @version     0.1
+ * @url         http://vtwo.org/jquery/autotabindex/
+ * @license     MIT License
+ */
 (function($) {
    $.fn.autotabindex = function(options) { 
        
