@@ -1,4 +1,4 @@
-autotabindex.js
+autotabindex.js v0.1
 ===============
 
 Adds auto sets or retrieves the index that defines the tab order for the object to JQuery.
