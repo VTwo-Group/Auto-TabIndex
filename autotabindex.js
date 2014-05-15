@@ -2,7 +2,7 @@
  * @name        jQuery Auto TabIndex Plugin
  * @author      VTwo Group
  * @version     0.1
- * @url         http://vtwo.org/jquery/autotabindex/
+ * @url         http://vtwo.org/jquery/plugin/autotabindex/
  * @license     MIT License
  */
 (function($) {
