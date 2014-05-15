@@ -13,29 +13,32 @@
             classname: ''
        }, options);
          
+       //Remove all 
        var counter = 1;
-       var el = $('*'); 
-       var kids = el.children();
+       var el      = $('*'); 
+       var kids    = el.children();
        kids.removeAttr('tabindex');
        
        if(settings.list!='')  
           {
-             var array = settings.list.split(','); 
-             var tmp = '';
+             var array = settings.list.split(',');  
              for(var i=0; i<array.length; i++)
                 {
                    kids.filter(array[i]).attr('tabindex', counter); 
-                   tmp = kids.filter(array[i]).css('background');
-                   kids.filter(array[i]).focusin(function(){
-                      $(this).addClass(settings.classname);
-                   });
+                   
+                   //Add and Remove Class
+                   if(settings.classname)
+                      {
+                         kids.filter(array[i]).focusin(function(){
+                            $(this).addClass(settings.classname);
+                         });
                   
-                   kids.focusout(array[i]).blur(function(){
-                      $(this).removeClass(settings.classname);
-                   });
-                     
+                         kids.focusout(array[i]).blur(function(){
+                            $(this).removeClass(settings.classname);
+                         });
+                      } 
+                      
                   counter++;
                }
          }
-};
-}(jQuery)); 
+}}(jQuery)); 
