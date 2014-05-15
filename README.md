@@ -3,13 +3,13 @@ autotabindex.js
 
 Adds auto sets or retrieves the index that defines the tab order for the object to JQuery.
 
-### Usage
+## Usage
 Load after JQuery:
 ```html
 <script src="http://code.jquery.com/jquery-x.x.x.min.js"></script>
 <script src="jquery.autotabindex.min.js"></script>
 ```
-### Config
+## Config
 autotabindex() Can optionally override some or all of the following defaults:
 ```js
 foo.autotabindex({
@@ -17,5 +17,5 @@ foo.autotabindex({
         classname: ''  //CSS Class
 });
 ```
-### Examples
+## Demo
 [Demo](http://vtwo.org/jquery/autotabindex/)
