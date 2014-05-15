@@ -18,4 +18,4 @@ foo.autotabindex({
 });
 ```
 ## Demo
-[Demo](http://vtwo.org/jquery/autotabindex/)
+[Demo](http://vtwo.org/jquery/plugin/autotabindex/)
